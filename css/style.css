@@ -1,14 +1,14 @@
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #0B4A72;
-
     font-size: 18px;
     line-height: 21px; 
-
 }
 
 .container {
@@ -16,84 +16,21 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .header__inner {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    height: 93px;
 }
 
-li {
-    list-style-type: none;
-
+.user-nav__link {
+    color: #0B4A72;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
 }
 
-.menu_list {
-    display: flex;
-    width: 250px;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 0 auto;
-
+.user-nav__link + .user-nav__link {
+    margin-left: 30px;
 }
-
-
-a {
-        text-decoration: none;
-        color: #0B4A72;
-        font-family: 'Roboto';
-        font-size: 12px;
-        line-height: 21px; 
-}
-
-
-.main {
-
-    background-color: #FEF8F1;
-background-image: url('../img/main.png');
-height: 100vh;
-
-background-repeat: no-repeat;
-background-position: bottom center;
-
-}
-
-
-
-
-
-
-.main_header-title {
-    
-font-size: 72px;
-font-weight: 400;
-line-height: 80px;
-
-text-align: center;
-padding-top: 200px;
-
-}
-
-.main-header-text {
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #222222;
-    margin-top: 36px;
-}
-
-.button {
-    margin-top: 28px;
-    margin-bottom: 379px;
-}
-
-
-<div class="container">
-<div class="main_header">
-    <p class="main_header-title">The neighborhood pharmacy that comes to you.</p>
-    <p class="main-header-text">We're your #1 rated pharmacy with free same-day delivery and extraordinary care.</p>
-    <div class="button">
-        Transfer in seconds
-    </div>
-</div>
-<img src="img/main.png" alt="" width="1440" height="523">
-</div>
