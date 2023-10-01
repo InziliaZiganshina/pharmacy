@@ -37,45 +37,47 @@ body {
     margin-left: 30px;
 }
 
-
-
-
-
-
-
-
-.main {
-
+.top {
     background-color: #FEF8F1;
-background-image: url('../img/main.png');
-height: 100vh;
-
-background-repeat: no-repeat;
-background-position: bottom center;
-
 }
 
-
-.main_header-title {
-    
-font-size: 72px;
-font-weight: 400;
-line-height: 80px;
-
-text-align: center;
-padding-top: 200px;
-
+.top__inner {
+    padding: 200px 333px 380px;
+    background-image: url('../img/top-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center; 
+    text-align: center;
 }
 
-.main-header-text {
+.top__title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    margin-bottom: 34px;
+    max-width: 774px;
+}
+
+.top__text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    max-width: 342px;
     text-align: center;
     color: #222222;
-    margin-top: 36px;
+    margin: 0 auto;
 }
 
-.button {
+.top__btn {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    color: #0B4A72;
+    border-radius: 36px;
+    padding: 17px 50px 19px;
+    /*margin-right*/
+    border: none;
+    background-color: #E6F2B4;
     margin-top: 28px;
-    margin-bottom: 379px;
+    text-align: center;
 }
