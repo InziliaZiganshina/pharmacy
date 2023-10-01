@@ -99,7 +99,7 @@ body {
 
 .tools {
     padding-top: 137px;
-    padding-bottom: 273px;
+
 }
 
 .tools__title {
@@ -137,4 +137,9 @@ body {
     font-weight: 400;
     line-height: 26px;
     color: #000000B2;
+}
+
+.advantages {
+    padding-top: 0;
+    padding-bottom: 120px;
 }
