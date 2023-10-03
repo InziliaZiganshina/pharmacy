@@ -260,3 +260,7 @@ body {
     margin-top: 35px;
     max-width: 504px;
 }
+
+.reviews__inner {
+    display: flex;
+}
