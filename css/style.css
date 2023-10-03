@@ -259,8 +259,83 @@ body {
 .access__text--2 {
     margin-top: 35px;
     max-width: 504px;
+
+
+
+
 }
 
 .reviews__inner {
     display: flex;
+    margin: auto;
+    margin-top: 160px;
+
+
+    align-items: center;
+
+}
+
+.reviews-img {
+    margin: 0 132px 0 0;
+
+}
+
+.reviews__block {
+
+    align-items: center;
+}
+
+
+.reviews__text {
+
+
+    width: 456px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+
+
+    margin-bottom: 110px;
+
+
+
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.stars {
+    margin-bottom: 20px;
+
+
+}
+
+.main__end {
+    padding-top: 130px;
+    background-color: #FFFAF4;
+    text-align: center;
+}
+
+
+
+
+
+
+.footer {
+    padding-top: 55px;
+    background-color: #FFFAF4;
+}
+
+.main__end-title {
+
+    width: 614px;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 55px;
+
 }
