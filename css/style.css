@@ -98,7 +98,6 @@ body {
 
 .tools {
     padding-top: 137px;
-
 }
 
 .tools__title {
@@ -128,7 +127,6 @@ body {
     font-weight: 400;
     margin-bottom: 17px;
     margin-top: 0;
-
 }
 
 .tools__item-text {
@@ -146,6 +144,7 @@ body {
 .answers__inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 90px;
     margin-bottom: 240px;
 }
@@ -175,14 +174,6 @@ body {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
 .answers__points {
     width: 600px;
     height: 440px;
@@ -190,58 +181,46 @@ body {
 
     flex-direction: column;
     justify-content: space-around;
-
-
 }
-
 
 .answers__point--1 {
     background-image: url('../img/q-1.png');
     background-repeat: no-repeat;
-
     background-size: contain;
-
     width: 340px;
     height: 110px;
     margin: 0;
-    padding: 0;
-
+    padding: 15px 0 0 50px;
 }
 
 
 .answers__point--2 {
     background-image: url('../img/q-2.png');
     background-repeat: no-repeat;
-
-
     background-size: contain;
     margin: 0 0 0 150px;
     width: 340px;
     height: 110px;
-
+    padding: 15px 0 0 50px;
 }
 
 .answers__point--3 {
     background-image: url('../img/q-3.png');
     background-repeat: no-repeat;
-
-
     background-size: contain;
-
     width: 340px;
     height: 110px;
     margin: 0;
     padding: 0;
+    padding: 15px 0 0 50px;
 }
 
 .answers__point--4 {
     background-image: url('../img/q-4.png');
     background-repeat: no-repeat;
-
-
     background-size: contain;
     margin: 0 0 0 150px;
     width: 340px;
     height: 110px;
-
+    padding: 15px 0 0 50px;
 }
